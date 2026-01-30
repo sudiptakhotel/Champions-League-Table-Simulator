@@ -7,6 +7,7 @@ public class Standing {
 
     @Id
     private Long teamId;
+    private String teamName;
     private Integer played;
     private Integer wins;
     private Integer losses;
