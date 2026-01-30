@@ -1,6 +1,7 @@
 package com.springboot.ChampionsLeagueableSimulator.controllers;
 
 import com.springboot.ChampionsLeagueableSimulator.dtos.TeamDTO;
+import com.springboot.ChampionsLeagueableSimulator.dtos.TeamStandingDTO;
 import com.springboot.ChampionsLeagueableSimulator.services.TeamService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -27,6 +28,13 @@ public class TeamController {
     public ResponseEntity<List<TeamDTO>> getAllTeams() {
 
         return ResponseEntity.ok(teamService.getTeams());
+    }
+
+    @GetMapping(path = "/team/{teamId}/standing")
+    public ResponseEntity<TeamStandingDTO> getTeamStanding(@PathVariable Long teamId) {
+
+        TeamStandingDTO teamStanding = teamService.getTeamPointsById(teamId);
+        return ResponseEntity.ok(teamStanding);
     }
 
 }
