@@ -2,8 +2,10 @@ package com.springboot.ChampionsLeagueableSimulator.entity;
 
 import com.springboot.ChampionsLeagueableSimulator.enums.Status;
 import jakarta.persistence.*;
+import lombok.Builder;
 
 @Entity
+@Builder
 public class Match {
 
     @Id
@@ -15,6 +17,8 @@ public class Match {
 
     private Integer homeGoals;
     private Integer awayGoals;
+
+    private Integer roundNumber;
 
     @Enumerated(EnumType.STRING)
     private Status status;
