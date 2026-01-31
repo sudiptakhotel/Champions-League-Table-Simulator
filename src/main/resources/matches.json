@@ -1,0 +1,27 @@
+{
+  "rounds" : [
+    {
+      "roundNumber" : 1 ,
+      "matches" : [
+        {"homeTeam" :  "Athletic Bilbao" , "awayTeam" :  "Arsenal"} ,
+        {"homeTeam" :  "PSV Eindhoven" , "awayTeam" :  "Union Saint-Gilloise"},
+        {"homeTeam" :  "Benfica" , "awayTeam" :  "Qarabağ"},
+        {"homeTeam" :  "Juventus" , "awayTeam" :  "Borussia Dortmund"},
+        {"homeTeam" :  "Real Madrid" , "awayTeam" :  "Marseille"},
+        {"homeTeam" :  "Tottenham Hotspur" , "awayTeam" :  "Villarreal"},
+        {"homeTeam" :  "Olympiacos" , "awayTeam" :  "Pafos"},
+        {"homeTeam" :  "Slavia Prague" , "awayTeam" :  "Bodø/Glimt"},
+        {"homeTeam" :  "Ajax" , "awayTeam" :  "Inter Milan"},
+        {"homeTeam" :  "Bayern Munich" , "awayTeam" :  "Chelsea"},
+        {"homeTeam" :  "Liverpool" , "awayTeam" :  "Atlético Madrid"},
+        {"homeTeam" :  "Paris Saint-Germain" , "awayTeam" :  "Atalanta"},
+        {"homeTeam" :  "Club Brugge" , "awayTeam" :  "Monaco"},
+        {"homeTeam" :  "Copenhagen" , "awayTeam" :  "Bayer Leverkusen"},
+        {"homeTeam" :  "Eintracht Frankfurt" , "awayTeam" :  "Galatasaray"},
+        {"homeTeam" :  "Manchester City" , "awayTeam" :  "Napoli"},
+        {"homeTeam" :  "Newcastle United" , "awayTeam" :  "Barcelona"},
+        {"homeTeam" :  "Sporting CP" , "awayTeam" :  "Kairat Almaty"}
+      ]
+    }
+  ]
+}
