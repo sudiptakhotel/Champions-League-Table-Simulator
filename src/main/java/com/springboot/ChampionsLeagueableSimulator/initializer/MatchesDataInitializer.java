@@ -15,7 +15,6 @@ import org.springframework.context.annotation.Configuration;
 import tools.jackson.databind.ObjectMapper;
 
 import java.io.InputStream;
-import java.util.List;
 
 @Configuration
 @RequiredArgsConstructor
